@@ -1,3 +1,4 @@
+
 {
   "version": 2,
   "builds": [
@@ -12,9 +13,10 @@
       "dest": "main.py"
     }
   ],
-  "functions": {
+    "functions": {
     "main.py": {
       "externalPackages": ["flask", "streamlit", "gunicorn"]
     }
   }
+}
 }
